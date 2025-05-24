@@ -1,0 +1,34 @@
+Bài 35. Đồ thị 2 phía
+ 
+Trong Lý thuyết đồ thị, đồ thị hai phía là một đồ thị đặc biệt, trong đó tập các đỉnh có thể được chia thành hai tập không giao nhau thỏa mãn điều kiện không có cạnh nối hai đỉnh bất kỳ thuộc cùng một tập.
+
+Cho đồ thị vô hướng G = (V, E), hãy kiểm tra xem đồ thị đã cho có phải là đồ thị 2 phía hay không?
+
+
+
+Đầu vào
+Dòng đầu tiên gồm 2 số n và m tương ứng với số đỉnh và số cạnh của đồ thị.
+
+m dòng tiếp theo là cạnh u-v, trong đó u khác v.
+
+Giới hạn
+1<=N<=1000
+
+1<=M<=N*(N-1)/2
+
+1<=u,v<=N
+
+Đầu ra
+In ra YES nếu G là đồ thị 2 phía, ngược lại in NO
+
+Ví dụ :
+Input 01
+
+5 4
+1 2
+3 2
+4 3
+4 5
+Output 01
+
+YES

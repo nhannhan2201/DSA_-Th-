@@ -1,0 +1,34 @@
+Bài 31. Tìm cặp
+ Bạn được cung cấp một cây gốc với các nút và nút 1 là gốc. Có một đường đi duy nhất giữa hai nút bất kỳ.
+
+Ở đây, d(i, j) được định nghĩa là một số cạnh trong một đường đi duy nhất giữa 2 nút i và j.
+
+Nhiệm vụ của bạn phải tìm số lượng cặp i, j sao cho d(i, j) = d(1, i) - d(1, j).
+
+Đầu vào
+Dòng đầu tiên là N là số lượng nút của cây.
+
+N - 1 dòng tiếp theo là các cạnh của cây.
+
+Giới hạn
+1<=N<=1000
+
+Đầu ra
+In ra số lượng cặp (i, j) thỏa mãn yêu cầu của đầu bài.
+
+Ví dụ :
+Input 01
+
+10
+9 10
+5 9
+7 4
+4 5
+2 3
+6 7
+7 8
+3 6
+1 2
+Output 01
+
+51

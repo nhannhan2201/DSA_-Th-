@@ -1,0 +1,38 @@
+Bài 26. Xây dựng đường đi
+Ở 28techland có n thành phố và m đường giữa chúng.
+
+Mục tiêu là xây dựng những con đường mới để có một tuyến đường giữa hai thành phố bất kỳ.
+
+Nhiệm vụ của bạn là tìm ra số lượng đường tối thiểu cần thiết, đồng thời xác định những con đường nào nên được xây dựng.
+
+Đầu vào
+Dòng đầu tiên có hai số nguyên n và m: số thành phố và đường. Các thành phố được đánh số từ 1 tới n.
+
+Sau đó, có m dòng mô tả các con đường. Mỗi dòng có hai số nguyên a và b : có một con đường giữa các thành phố đó, các con đường này là đường 2 chiều.
+
+Một con đường luôn nối hai thành phố khác nhau và có nhiều nhất một con đường giữa hai thành phố bất kỳ.
+
+Giới hạn
+1<=n<=1000
+
+0<=m<=n*(n-1)/2
+
+1<=a,b<=n
+
+Đầu ra
+Dòng đầu tiên in ra K là số con đường cần xây dựng.
+
+K dòng tiếp theo in ra các con đường được xây dựng, do có nhiều cách xây dựng đường nên bạn sẽ lựa chọn ra các con đường có thứ tự từ điển nhỏ nhất để xây dựng nhưng với một điều kiện đó là, mỗi thành phố được lựa chọn là điểm xuất phát của con đường không quá 1 lần.
+
+Ví dụ :
+Input 01
+
+6 3
+4 3
+4 1
+4 2
+Output 01
+
+2
+1 5
+5 6
