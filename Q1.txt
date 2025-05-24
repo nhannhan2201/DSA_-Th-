@@ -1,3 +1,5 @@
+Bài 1. Danh sách cạnh sang danh sách kề
+
 Cho đồ thị vô hướng G = <V, E> gồm n đỉnh và m cạnh được biểu diễn dưới dạng danh sách cạnh. Hãy chuyển đổi đồ thị dưới dạng danh sách cạnh này sang danh sách kề tương ứng.
 
 Đầu vào
@@ -11,3 +13,16 @@ Giới hạn
 1<=m<=n*(n-1)/2
 Đầu ra
 In ra n dòng, trong đó dòng thứ i in ra danh sách kề của đỉnh i. Các đỉnh trong danh sách kề được liệt kê từ nhỏ tới lớn.
+Ví dụ :
+Input 01
+5 4
+2 5
+4 1
+4 2
+4 3
+Output 01
+1 : 4 
+2 : 4 5 
+3 : 4 
+4 : 1 2 3 
+5 : 2
