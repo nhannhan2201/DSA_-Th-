@@ -1,0 +1,50 @@
+Bài 40. Cây khung BFS
+ Cho đồ thị vô hướng G =(V, E) liên thông. Hãy in ra các cạnh của cây khung này theo thuật toán BFS bắt đầu từ đỉnh s.
+
+Thứ tự mở rộng cây khung của thuật toán BFS luôn mở rộng đỉnh có thứ tự nhỏ hơn trước.
+
+Đầu vào
+Dòng đầu tiên là n, m, và s tương ứng với số đỉnh, số cạnh và đỉnh gốc của cây khung.
+
+m dòng tiếp theo mỗi dòng là một cạnh của cây, dữ liệu đảm bảo cạnh chỉ nối giữa 2 đỉnh khác nhau.
+
+Giới hạn
+1<=s<=n<=1000
+
+1<=m<=n*(n - 1)/2
+
+Đầu ra
+In ra các cạnh của cây khung theo thứ tự duyệt bằng thuật toán BFS theo từng dòng.
+
+Ví dụ :
+Input 01
+
+9 18 4
+9 3
+5 4
+5 1
+5 2
+7 5
+4 3
+8 5
+4 2
+2 1
+9 4
+7 2
+8 6
+9 7
+4 1
+6 1
+9 1
+6 3
+7 1
+Output 01
+
+4->1
+4->2
+4->3
+4->5
+4->9
+1->6
+1->7
+5->8

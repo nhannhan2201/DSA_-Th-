@@ -1,0 +1,45 @@
+Bài 43. Tìm đường
+ 
+Cho một bảng S[][] kích thước N x M, bao gồm các ô trống, các vật cản. Ban đầu bạn ở vị trí S.
+
+Nhiệm vụ của bạn là hãy di chuyển tới vị trí T, sao cho số lần đổi hướng không quá hai lần. Các bạn có thể di chuyển từ 1 ô sang 4 ô chung cạnh với ô hiện tại và không có vật cản.
+
+Đầu vào
+Dòng 1 bắt đầu bởi hai số nguyên N và M. N dòng tiếp theo, mỗi dòng gồm M kí tự mô tả bảng S.
+
+Trong đó: . là một ô trống, * là vật cản, S là vị trí xuất phát và T là vị trí đích. (Chỉ có một vị trí S và T duy nhất).
+
+Giới hạn
+1 ≤ N, M ≤ 500
+
+Đầu ra
+In ra YES nếu tìm được đường đi, ra in NO trong trường hợp ngược lại.
+
+Ví dụ :
+Input 01
+
+9 6
+**.*..
+.**..T
+.*..*.
+.....*
+...***
+...*S.
+*.....
+****..
+.....*
+Output 01
+
+NO
+Input 02
+
+6 10
+S...*...**
+...*.*....
+......*.T.
+.........*
+...*.***..
+....*.*...
+Output 02
+
+YES

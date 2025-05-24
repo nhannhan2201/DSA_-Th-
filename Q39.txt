@@ -1,0 +1,42 @@
+Bài 39. Cây khung DFS
+ Cho đồ thị vô hướng G =(V, E) liên thông. Hãy in ra các cạnh của cây khung này theo thuật toán DFS bắt đầu từ đỉnh s.
+
+Thứ tự mở rộng cây khung của thuật toán DFS luôn mở rộng đỉnh có thứ tự nhỏ hơn trước.
+
+Đầu vào
+Dòng đầu tiên là n, m, và s tương ứng với số đỉnh, số cạnh và đỉnh gốc của cây khung.
+
+m dòng tiếp theo mỗi dòng là một cạnh của cây, dữ liệu đảm bảo cạnh chỉ nối giữa 2 đỉnh khác nhau.
+
+Giới hạn
+1<=s<=n<=1000
+
+1<=m<=n*(n - 1)/2
+
+Đầu ra
+In ra các cạnh của cây khung theo thứ tự duyệt bằng thuật toán DFS theo từng dòng.
+
+Ví dụ :
+Input 01
+
+7 12 3
+6 3
+6 2
+5 3
+5 4
+7 3
+5 2
+7 1
+4 3
+2 1
+6 4
+7 2
+3 2
+Output 01
+
+3->2
+2->1
+1->7
+2->5
+5->4
+4->6

@@ -1,0 +1,43 @@
+Bài 37. Quần đảo chìm
+Thành phố Vice được xây dựng trên một nhóm các hòn đảo, với những cây cầu nối giữa chúng.
+
+Như bất kỳ ai ở Vice City đều biết, nỗi sợ hãi lớn nhất của các phó thành phố là một ngày nào đó các hòn đảo sẽ bị nhấn chìm.
+
+Vấn đề lớn của việc này là một khi các hòn đảo bị nhấn chìm, một số hòn đảo khác có thể bị ngắt kết nối.
+
+Bạn đã được thị trưởng thành phố Vice thuê để nói cho ông ta biết có bao nhiêu hòn đảo, khi bị nhấn chìm, sẽ ngắt kết nối các bộ phận của thành phố Vice.
+
+Bạn nên biết rằng ban đầu tất cả các hòn đảo của thành phố đều được kết nối với nhau.
+
+Đầu vào
+Dòng đầu tiên là N và M, tương ứng với số lượng đảo và cầu
+
+M dòng tiếp theo của mỗi test case mô tả cầu nối giữa 2 hòn đảo u, v
+
+Giới hạn
+1<=T<=100
+
+1<=N<=1000
+
+1<=M<=N*(N-1)/2
+
+1<=u,v<=N
+
+Đầu ra
+In ra số lượng hòn đảo khi bị ngập sẽ làm thành phố Vice bị ngắt kết nối.
+
+Ví dụ :
+Input 01
+
+6 8
+1 3
+6 1
+6 3
+4 1
+6 4
+5 2
+3 2
+3 5
+Output 01
+
+1
